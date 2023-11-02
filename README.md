@@ -10,12 +10,12 @@ This is a simple C program that allows you to input a Sudoku grid and attempts t
    - Open a terminal or command prompt on your local machine.
    - Use the following command to clone the repository to your preferred directory:
      ```
-     git clone https://github.com/your-username/sudoku-solver.git
+     git clone https://github.com/Christopher-Toth/sudoku-solver.git
      ```
-   - Replace `your-username` with your GitHub username.
 
 2. **Compile the program:**
    - Ensure you have a C compiler installed on your system.
+   - Make sure to install the ncurses library on your system and compile the code with -lncurses (e.g., gcc -o sudoku_solver sudoku_solver.c -lncurses) to build the executable.
    - Navigate to the cloned repository's directory using the terminal or command prompt.
    - Compile the program using the following command:
      ```
